@@ -1,0 +1,132 @@
+# Wersja 2 – Opis CSS
+
+1. **background-size** – ustawia wielkość obrazka w tle. `cover` dopasowuje go tak, żeby zakrywał całe tło.
+
+2. **background-repeat** – ustawia czy tło ma się powtarzać, tutaj nie.
+
+3. **background-image** – daje obrazek jako tło.
+
+4. **padding-left** – robi odstęp wewnątrz elementu z lewej strony.
+
+5. **padding-right** – robi odstęp wewnątrz elementu z prawej strony.
+
+6. **padding-top** – robi odstęp wewnątrz elementu od góry.
+
+7. **padding-bottom** – robi odstęp wewnątrz elementu od dołu.
+
+8. **position** – ustawia jak element ma być położony. `fixed` trzyma go w jednym miejscu ekranu, a `absolute` pozwala ustawić go w konkretnym miejscu.
+
+9. **left** – ustawia odległość od lewej strony.
+
+10. **top** – ustawia odległość od góry.
+
+11. **right** – ustawia odległość od prawej strony.
+
+12. **transform** – pozwala przesuwać, obracać i zmieniać wielkość elementu.
+
+13. **writing-mode** – zmienia kierunek tekstu, np. żeby był pionowo.
+
+14. **white-space** – ustawia jak tekst ma się zawijać. `nowrap` sprawia, że jest w jednej linii.
+
+15. **font-family** – zmienia czcionkę.
+
+16. **font-size** – zmienia wielkość tekstu.
+
+17. **letter-spacing** – zmienia odstępy między literami.
+
+18. **text-transform** – zmienia np. wszystkie litery na wielkie.
+
+19. **color** – zmienia kolor tekstu.
+
+20. **border-right** – dodaje kreskę lub ramkę po prawej stronie.
+
+21. **width** – ustawia szerokośc elementu.
+
+22. **list-style** – zmienia wygląd listy, np. usuwa kropki i numerki.
+
+23. **padding** – robi odstęp wewnątrz elementu.
+
+24. **margin** – robi odstęp na zewnątrz elementu.
+
+25. **margin-bottom** – robi odstęp pod elementem.
+
+26. **font-weight** – zmienia grubość tekstu.
+
+27. **margin-left** – robi odstęp z lewej strony.
+
+28. **margin-top** – robi odstęp od góry.
+
+29. **border-left** – dodaje kreskę lub ramkę po lewej stronie.
+
+30. **text-decoration** – dodaje lub usuwa podkreślenie tekstu.
+
+31. **text-align** – ustawia wyrównanie tekstu.
+
+32. **text-shadow** – dodaje cień do liter.
+
+33. **background** – ustawia tło elementu, np. kolor albo przezroczyste tło.
+
+34. **backdrop-filter** – dodaje efekt do tego, co jest za elementem, tutaj rozmycie.
+
+35. **border** – dodaje ramkę wokół elementu.
+
+36. **border-radius** – zaokrągla rogi.
+
+37. **line-height** – zmienia odstępy między linijkami.
+
+38. **max-width** – ustawia maksymalną szerokość.
+
+39. **background-color** – ustawia kolor tła elementu.
+
+40. **opacity** – ustawia przezroczystość elementu.
+
+## Selektory
+
+- **body.index, body.mlodosc itd.** – ustawiają wygląd różnych podstron.
+
+- **h1, h2, h3** – nagłówki.
+
+- **ol** – lista numerowana.
+
+- **ul** – lista z punktami.
+
+- **ol \> li** – wybiera elementy bezpośrednio z listy numerowanej.
+
+- **ul li** – wybiera elementy listy z punktami.
+
+- **a:hover** – zmienia link po najechaniu myszką.
+
+- **a:active** – zmienia link podczas kliknięcia.
+
+- **a + h3** – wybiera nagłówek `h3`, który jest zaraz po linku.
+
+- **.glowna\_grafika\_musk** – obrazek nazwany tak w klasie w HTML.
+
+- **body.sukcesy h3, body.sukcesy p** – nagłówki i teksty ze strony o sukcesach.
+
+- **body.projekty .panel** – panel na stronie o projektach.
+
+- **body.projekty .panel p** – tekst w tym panelu.
+
+- **body.projekty .panel li** – elementy listy w tym panelu.
+
+- **img** – wszystkie obrazki.
+
+- **img(.elon2)(.glowna\_grafika\_musk)** – wszystkie obrazki oprócz tych z wymienionymi klasami.
+
+- **.elon2** – obrazek z klasą `elon2`.
+
+## Dodatkowe rzeczy
+
+- **rgba()** – ustawia kolor z przezroczystością. (np (0, 0, 0, 0.5) oznacza czarny kolor I 50% przezroczystości)
+
+- **url()** – wskazuje, skąd ma być pobrany obrazek.
+
+- **blur()** – bluruje (rozmywa).
+
+- **translateX()** – przesuwa element pionowo.
+
+- **translateY()** – przesuwa element poziomo.
+
+- **scale()** – zmienia wielkość elementu.
+

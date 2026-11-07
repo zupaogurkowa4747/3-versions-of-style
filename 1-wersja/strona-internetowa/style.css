@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #CCCCCC;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+h2, h3 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #00E5FF;
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: #82B1FF;       
+}
+
+.glowna_grafika_musk {
+    float: right;
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+body.mlodosc {
+    background-color: #0a192f;
+}
+
+body.projekty {
+    background-color: #1c1a27;
+}
+
+body.sukcesy {
+    background-color: #0d2818;
+}
+
+body.rewolucje {
+    background-color: #2b0918;
+}

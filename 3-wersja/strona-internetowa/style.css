@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #808080;
+    color: #252a34;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 70px;
+    color: #1a1a1a;
+    text-align: left;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #e07832;
+    padding-bottom: 18px;
+    margin-bottom: 35px;
+}
+
+.glowna_grafika_musk {
+    position: absolute;
+    width: 350px;
+    top: 0;
+    right: 0;
+    margin: 25px 25px;
+    border-radius: 10px;
+    border: 1px solid #d5d9e0;
+}
+
+ol > li {
+    list-style-type: none;
+    padding: 20px;
+    border-left: 5px solid black;
+    background-color: #ffb300;
+    border-radius:12px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+ul {
+    border-radius: 8px;
+    list-style-type: none;
+}
+
+ul li {
+    background-color: rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+ol ul li:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+a {
+    text-decoration: none;
+    color: #1f140e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 67px;
+    color:  #161414;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #e07832;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #F5F2E9;
+    font-style: italic;
+    
+    background: linear-gradient(110deg, #ffb300, #e78320);
+    transform: rotate(-3deg);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+}
+
+p{
+    background-color: #F5F2E9;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: #000000;
+    box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.45);
+    line-height: 1.8;
+    border-radius: 6px 30px 6px 30px;
+}
+
+body > img:not(.glowna_grafika_musk) {
+    filter: grayscale(50%);
+    border-radius: 15px;
+    position: absolute;
+    margin: 10px 10px;
+    top: 0;
+    right: 0;
+}
+
+.panel ul li {
+    background-color: #F1E3D3;
+}
+
+.powrot {
+    display: inline-block;
+    background: linear-gradient(110deg, #ff0000, #ff02c8);
+    padding: 15px;
+    border-radius: 25px 0px 25px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+p:has(.powrot) {
+    background: none;
+    box-shadow: none;
+}
